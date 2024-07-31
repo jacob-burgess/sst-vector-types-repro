@@ -1,5 +1,8 @@
 # Reproduction of type error in the sst Vector Component
 
+- issue: https://github.com/sst/ion/issues/788
+- pr: https://github.com/sst/ion/pull/787
+
 ## Issue
 
 The return type of `VectorClient.query` is incorrectly typed, requiring a ts-ignore.
