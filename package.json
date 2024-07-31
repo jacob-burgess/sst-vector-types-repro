@@ -1,0 +1,24 @@
+{
+  "name": "sst-vector-types-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dotenv -e .env sst dev tsx vector.ts",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "start": "sst start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.53.2",
+    "sst": "ion"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "dotenv-cli": "^7.4.2"
+  }
+}
